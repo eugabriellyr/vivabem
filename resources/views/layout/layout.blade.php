@@ -56,9 +56,9 @@
      Preloader
     ==============================-->
     <div class="preloader ">
-        <div class="preloader-inner">
+        {{-- <div class="preloader-inner">
             <span class="loader"></span>
-        </div>
+        </div> --}}
     </div>
     <div class="popup-search-box">
         <button class="searchClose"><i class="fal fa-times"></i></button>
@@ -213,15 +213,15 @@
                                     <li class="menu-item-has-children">
                                         <a href={{ route('modalidade') }}>Modalidades</a>
                                         <ul class="sub-menu">
-                                            <li><a href={{ route('musculacao') }}>Musculação</a></li>
-                                            <li><a href="service-details.html">Cardiovascular</a></li>
-                                            <li><a href="service-details.html">CrossFit</a></li>
-                                            <li><a href="service-details.html">Pilates</a></li>
-                                            <li><a href="service-details.html">Yoga</a></li>
-                                            <li><a href="service-details.html">Zumba</a></li>
-                                            <li><a href="service-details.html">Box</a></li>
-                                            <li><a href="service-details.html">Artes Marciais</a></li>
-                                            <li><a href="service-details.html">Judô</a></li>
+                                            <li><a href={{ route('modalidade.musculacao') }}>Musculação</a></li>
+                                            <li><a href={{ route('modalidade.cardiovascular') }}>Cardiovascular</a></li>
+                                            <li><a href={{ route('modalidade.crossfit') }}>CrossFit</a></li>
+                                            <li><a href={{ route('modalidade.pilates') }}>Pilates</a></li>
+                                            <li><a href={{ route('modalidade.yoga') }}>Yoga</a></li>
+                                            <li><a href={{ route('modalidade.zumba') }}>Zumba</a></li>
+                                            <li><a href={{ route('modalidade.box') }}>Box</a></li>
+                                            <li><a href={{ route('modalidade.artes_marciais') }}>Artes Marciais</a></li>
+                                            <li><a href={{ route('modalidade.judo') }}>Judô</a></li>
                                         </ul>
                                     </li>
 

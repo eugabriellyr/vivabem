@@ -157,6 +157,66 @@
     </div>
 
     <!--==============================
+     METAS
+    ==============================-->
+    <section class="goal-area space">
+        <div class="container container2">
+            <div class="row">
+                <div class="col-lg-6 order-lg-2">
+                    <div class="goal-thumb-2 mb-40 mb-lg-0">
+                        <div class="img-1">
+                            <img src="assets/img/normal/goal_2-2.png" alt="img">
+                        </div>
+                        <div class="img-2 jump">
+                            <img src="assets/img/normal/goal_2-1.png" alt="img">
+                        </div>
+                        <div class="wcu-grid movingX">
+                            <div class="icon">
+                                <img src="assets/img/icon/wcu-icon_1-1.svg" alt="img">
+                            </div>
+                            <div class="details">
+                                <h3 class="wcu-grid_year"><span class="counter-number">25</span>+</h3>
+                                <span class="wcu-grid_text">Years Experience</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 order-lg-1">
+                    <div class="title-area">
+                        <span class="sub-title">Fitmas Goal
+                        </span>
+                        <h2 class="sec-title fw-semibold">UNLOCK YOUR FULL POTENTIAL, ACHIEVE YOUR FITNESS GOALS.</h2>
+                    </div>
+                    <div class="goal-grid-wrap">
+                        <div class="about-grid style3">
+                            <div class="about-grid_icon">
+                                <img src="assets/img/icon/goal-icon_1-1.svg" alt="img">
+                            </div>
+                            <div class="about-grid_content">
+                                <h4 class="about-grid_title">Free Fitness Training</h4>
+                                <p class="about-grid_text">Pedal your way to fitness in our specialized indoor cycling studio. Equipped with stationary bikes...</p>
+                            </div>
+                        </div>
+                        <div class="about-grid style3">
+                            <div class="about-grid_icon">
+                                <img src="assets/img/icon/goal-icon_1-2.svg" alt="img">
+                            </div>
+                            <div class="about-grid_content">
+                                <h4 class="about-grid_title">Cardio and Strength</h4>
+                                <p class="about-grid_text">Pedal your way to fitness in our specialized indoor cycling studio. Equipped with stationary bikes...</p>
+                            </div>
+                        </div>
+                        <div class="btn-wrap">
+                            <a class="btn style-r0" href="service-details.html">Learn More</a>
+                            <a class="btn btn-border style-r0" href="service-details.html">View All Services</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--==============================
     Cta Area
     ==============================-->
     <section class="cta-area space" data-bg-src="assets/img/bg/visita.png">
