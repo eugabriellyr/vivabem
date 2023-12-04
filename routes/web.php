@@ -31,6 +31,7 @@ route::get('/modalidade', [ModalidadeController::class, 'index'])->name('modalid
 route::get('/noticias', [ NoticiasController::class, 'index'])->name('noticias');
 route::get('/sobre', [SobreController::class, 'index'])->name('sobre');
 route::get('/treino',[TreinoController::class, 'index'])->name('treino');
+route::get('/modalidade/musculacao', [ModalidadeController::class, 'musculacao'])->name('modalidade.musculacao');
 
 
 

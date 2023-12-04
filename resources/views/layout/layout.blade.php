@@ -213,7 +213,7 @@
                                     <li class="menu-item-has-children">
                                         <a href={{ route('modalidade') }}>Modalidades</a>
                                         <ul class="sub-menu">
-                                            <li><a href="service.html">Musculação</a></li>
+                                            <li><a href={{ route('musculacao') }}>Musculação</a></li>
                                             <li><a href="service-details.html">Cardiovascular</a></li>
                                             <li><a href="service-details.html">CrossFit</a></li>
                                             <li><a href="service-details.html">Pilates</a></li>
