@@ -1,0 +1,100 @@
+    /* MEUS AJUSTES */
+
+    :root {
+        --theme-color: #F41E1E;
+        --title-color: #1C1C1C;
+        --body-color: #7B7E86;
+        --smoke-color: #F3F3F3;
+        --smoke-color2: #F6F6F7;
+        --smoke-color3: #F5F5F6;
+        --smoke-color4: #F4F4F4;
+        --smoke-color5: #F0F2F4;
+        --black-color: #202020;
+        --gray-color: #303030;
+        --white-color: #ffffff;
+        --light-color: #9fa2ad;
+        --yellow-color: #FFB539;
+        --success-color: #28a745;
+        --error-color: #dc3545;
+        --border-color: #E3E3E3;
+        --title-font: "Kanit", sans-serif;
+        --body-font: "Kumbh Sans", sans-serif;
+        --icon-font: "Font Awesome 6 Pro";
+        --main-container: 1220px;
+        --container-gutters: 24px;
+        --section-space: 120px;
+        --section-space-mobile: 80px;
+        --section-title-space: 60px;
+        --ripple-ani-duration: 5s;
+        --verde-vivabem: #48c9b0;
+        --azul-vaivabem:  #34495e;
+        --amarelo-vivabem: #f1c40f;
+      }
+
+
+    /* Cor da página sobre onde ter o servico */
+.spaceS{
+    padding-bottom: 100px;
+    padding-top: var(--section-space);
+}
+
+/* Borda dos serviõs na pág sobre */
+.testeee{
+  border: 1px solid var(--amarelo-vivabem);
+}
+
+.sub-title.equipe{
+    color: var(--verde-vivabem);
+}
+
+
+/* Mudar a cor do titulo da seção serviços */
+
+.gaby{
+    color: var(--verde-vivabem)!important;
+    font-weight: bold;
+}
+
+/* Logo footer */
+
+.logo-footer{
+    width: 65%;
+}
+
+
+/* Espaço de baixo equipe */
+.space1{
+    margin-top: var(--section-space);
+}
+/* Espaço da parte da equipe na pág sobre */
+.space11{
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-color: var(--azul-vaivabem);
+}
+
+/* Gambiarra para largura do bloco onde contém o endereço para contato */
+.bloco-c{
+    width: 135%;
+}
+/* Cor do título da feed do instagram na pág contato */
+.title-c{
+    color: var(--azul-vaivabem);
+}
+/* Tamanho da logo no menu responsivo */
+.logo-m{
+    width: 45%;
+}
+
+.blog-area{
+    background-color: var(--azul-vaivabem);
+}
+.service-area-1{
+    background-color: var(--azul-vaivabem);
+}
+/* Ajusto no icon do contato, que não estava centralizado. Então arrumei ele pela div*/
+.icon-ct{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
