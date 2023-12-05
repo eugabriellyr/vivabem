@@ -3816,12 +3816,13 @@ a.text-theme:hover,
   height: 55px;
   line-height: 55px;
   padding: 0 20px;
+  width: 105%;
 }
 .widget_schedule ul li i {
   margin-right: 6px;
 }
 .widget_schedule ul li.unavailable {
-  color: var(--theme-color);
+  color: var(--verde-vivabem);
 }
 
 .wp-block-calendar tbody td,
@@ -11151,7 +11152,7 @@ span.select2-selection.select2-selection--single:focus {
   border: 0;
 }
 .accordion-card.style2 .accordion-button:not(.collapsed) {
-  background: var(--theme-color);
+  background: var(--verde-vivabem);
   color: var(--white-color);
 }
 

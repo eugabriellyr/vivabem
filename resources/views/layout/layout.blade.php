@@ -55,11 +55,12 @@
     <!--==============================
      Preloader
     ==============================-->
-    <div class="preloader ">
+    {{-- <div class="preloader "> --}}
         {{-- <div class="preloader-inner">
             <span class="loader"></span>
         </div> --}}
-    </div>
+    {{-- </div> --}}
+
     <div class="popup-search-box">
         <button class="searchClose"><i class="fal fa-times"></i></button>
         <form action="#">
@@ -73,7 +74,7 @@
             <div class="widget footer-widget">
                 <div class="widget-about">
                     <div class="footer-logo">
-                        <a href="index.html"><img class="logo-m"src="assets/img/logo1.png" alt="Fitmas"></a>
+                        <a href="index.html"><img class="logo-m"src="../assets/img/logo1.png" alt="Fitmas"></a>
                     </div>
                     <p class="about-text">Uma academia, também conhecida como centro de fitness ou clube de saúde, é uma
                         instalação dedicada à preparação física e academias de ginástica e normalmente oferece uma
@@ -105,7 +106,7 @@
         <div class="mobile-menu-area text-center">
             <button class="menu-toggle"><i class="fal fa-times"></i></button>
             <div class="mobile-logo header-logo">
-                <a href="index.html"><img src="assets/img/logo-2.png" alt="Fitmas"></a>
+                <a href="index.html"><img src="../assets/img/logo-2.png" alt="Fitmas"></a>
             </div>
             <div class="mobile-menu">
                 <ul>
@@ -189,7 +190,7 @@
                     <div class="row align-items-center justify-content-lg-start justify-content-between">
                         <div class="col-auto">
                             <div class="header-logo">
-                                <a href={{ route('home') }}><img src="assets/img/logo1.png" alt="logo"></a>
+                                <a href={{ route('home') }}><img src="../assets/img/logo1.png" alt="logo"></a>
                             </div>
                         </div>
                         <div class="col-auto m-lg-auto">
@@ -271,7 +272,7 @@
 
     </main>
 
-    <footer class="footer-wrapper footer-layout1" data-bg-src="assets/img/bg/footer-1-bg.png">
+    <footer class="footer-wrapper footer-layout1" data-bg-src="../assets/img/bg/footer-1-bg.png">
         <div class="container">
             <div class="contact-card">
                 <div class="info-card">
@@ -318,7 +319,7 @@
                         <div class="widget footer-widget">
                             <div class="widget-about">
                                 <div class="footer-logo">
-                                    <a href="index.html"><img class="logo-footer" src=" assets/img/logo-2.png"
+                                    <a href="index.html"><img class="logo-footer" src="../../assets/img/logo-2.png"
                                             alt="Fitmas"></a>
                                 </div>
                                 <p class="about-text">Uma academia, também conhecida como centro de fitness ou clube de
@@ -353,33 +354,33 @@
                             <h3 class="widget_title">Galeria</h3>
                             <div class="sidebar-gallery">
                                 <div class="gallery-thumb">
-                                    <img src="assets/img/widget/galeria1.png" alt="Gallery Image">
-                                    <a href="assets/img/widget/galeria1.png" class="gallery-btn popup-image"><i
+                                    <img src="../assets/img/widget/galeria1.png" alt="Gallery Image">
+                                    <a href="../assets/img/widget/galeria1.png" class="gallery-btn popup-image"><i
                                             class="fab fa-instagram"></i></a>
                                 </div>
                                 <div class="gallery-thumb">
-                                    <img src="assets/img/widget/galeria2.png" alt="Gallery Image">
-                                    <a href="assets/img/widget/galeria2.png" class="gallery-btn popup-image"><i
+                                    <img src="../assets/img/widget/galeria2.png" alt="Gallery Image">
+                                    <a href="../assets/img/widget/galeria2.png" class="gallery-btn popup-image"><i
                                             class="fab fa-instagram"></i></a>
                                 </div>
                                 <div class="gallery-thumb">
-                                    <img src="assets/img/widget/galeria3.png" alt="Gallery Image">
-                                    <a href="assets/img/widget/galeria3.png" class="gallery-btn popup-image"><i
+                                    <img src="../assets/img/widget/galeria3.png" alt="Gallery Image">
+                                    <a href="../assets/img/widget/galeria3.png" class="gallery-btn popup-image"><i
                                             class="fab fa-instagram"></i></a>
                                 </div>
                                 <div class="gallery-thumb">
-                                    <img src="assets/img/widget/galeria4.png" alt="Gallery Image">
-                                    <a href="assets/img/widget/galeria4.png" class="gallery-btn popup-image"><i
+                                    <img src="../assets/img/widget/galeria4.png" alt="Gallery Image">
+                                    <a href="../assets/img/widget/galeria4.png" class="gallery-btn popup-image"><i
                                             class="fab fa-instagram"></i></a>
                                 </div>
                                 <div class="gallery-thumb">
-                                    <img src="assets/img/widget/galeria5.png" alt="Gallery Image">
-                                    <a href="assets/img/widget/galeria5.png" class="gallery-btn popup-image"><i
+                                    <img src="../assets/img/widget/galeria5.png" alt="Gallery Image">
+                                    <a href="../assets/img/widget/galeria5.png" class="gallery-btn popup-image"><i
                                             class="fab fa-instagram"></i></a>
                                 </div>
                                 <div class="gallery-thumb">
-                                    <img src="assets/img/widget/galeria6.png" alt="Gallery Image">
-                                    <a href="assets/img/widget/galeria6.png" class="gallery-btn popup-image"><i
+                                    <img src="../assets/img/widget/galeria6.png" alt="Gallery Image">
+                                    <a href="../assets/img/widget/galeria6.png" class="gallery-btn popup-image"><i
                                             class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
