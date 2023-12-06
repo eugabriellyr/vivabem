@@ -29,6 +29,14 @@
     <!--==============================
           All CSS File
       ============================== -->
+
+    {{-- CHATGPT --}}
+    <!-- Bootstrap JavaScript e dependências jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
     <!-- Bootstrap -->
     <link rel="stylesheet" href={{ asset('assets/css/bootstrap.min.css') }}>
     <!-- Fontawesome Icon -->
@@ -56,7 +64,7 @@
      Preloader
     ==============================-->
     {{-- <div class="preloader "> --}}
-        {{-- <div class="preloader-inner">
+    {{-- <div class="preloader-inner">
             <span class="loader"></span>
         </div> --}}
     {{-- </div> --}}
@@ -157,8 +165,8 @@
                     <div class="col-auto d-none d-lg-block">
                         <div class="header-links">
                             <ul>
-                                <li><i class="far fa-envelope"></i><a
-                                        href="mailto:info@gmail.com">support@gmail.com</a></li>
+                                <li><i class="far fa-envelope"></i><a href="mailto:info@gmail.com">support@gmail.com</a>
+                                </li>
                                 <li><i class="far fa-clock"></i>Seg - Sáb: 8.00 am-7.00 pm</li>
                             </ul>
                         </div>
@@ -215,13 +223,15 @@
                                         <a href={{ route('modalidade') }}>Modalidades</a>
                                         <ul class="sub-menu">
                                             <li><a href={{ route('modalidade.musculacao') }}>Musculação</a></li>
-                                            <li><a href={{ route('modalidade.cardiovascular') }}>Cardiovascular</a></li>
+                                            <li><a href={{ route('modalidade.cardiovascular') }}>Cardiovascular</a>
+                                            </li>
                                             <li><a href={{ route('modalidade.crossfit') }}>CrossFit</a></li>
                                             <li><a href={{ route('modalidade.pilates') }}>Pilates</a></li>
                                             <li><a href={{ route('modalidade.yoga') }}>Yoga</a></li>
                                             <li><a href={{ route('modalidade.zumba') }}>Zumba</a></li>
                                             <li><a href={{ route('modalidade.box') }}>Box</a></li>
-                                            <li><a href={{ route('modalidade.artes_marciais') }}>Artes Marciais</a></li>
+                                            <li><a href={{ route('modalidade.artes_marciais') }}>Artes Marciais</a>
+                                            </li>
                                             <li><a href={{ route('modalidade.judo') }}>Judô</a></li>
                                         </ul>
                                     </li>
@@ -435,28 +445,33 @@
     <!--==============================
     All Js File
     ============================== -->
-    <!-- Jquery -->
-    <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
-    <!-- Slick Slider -->
-    <script src="assets/js/slick.min.js"></script>
-    <!-- Bootstrap -->
-    <script src="assets/js/bootstrap.min.js"></script>
-    <!-- Magnific Popup -->
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
-    <!-- Counter Up -->
-    <script src="assets/js/jquery.counterup.min.js"></script>
-    <!-- Range Slider -->
-    <script src="assets/js/jquery-ui.min.js"></script>
-    <!-- Flip Slider -->
-    <script src="assets/js/jquery.flipster.min.js"></script>
-    <!-- Isotope Filter -->
-    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
-    <script src="assets/js/isotope.pkgd.min.js"></script>
 
-    <script src="assets/js/bmi.calculator.js"></script>
+
+{{-- UTILIZEI O ASSET PARA SCRIPT FUNCIONAR, JÁ QUE TERIA QUE SAIR DE OUTRA PASTA, ENTÃO USEI O COMANDO ASSET --}}
+
+    <!-- Jquery -->
+    <script src={{ asset('assets/js/vendor/jquery-3.6.0.min.js') }}></script>
+    <!-- Slick Slider -->
+
+    <script src={{ asset('assets/js/slick.min.js') }}></script>
+    <!-- Bootstrap -->
+    <script src={{ asset('assets/js/bootstrap.min.js') }}></script>
+    <!-- Magnific Popup -->
+    <script src= {{ asset('assets/js/jquery.magnific-popup.min.js') }}></script>
+    <!-- Counter Up -->
+    <script src= {{ asset('assets/js/jquery.counterup.min.js') }}></script>
+    <!-- Range Slider -->
+    <script src= {{ asset('assets/js/jquery-ui.min.js') }}></script>
+    <!-- Flip Slider -->
+    <script src= {{ asset('assets/js/jquery.flipster.min.js') }}></script>
+    <!-- Isotope Filter -->
+    <script src= {{ asset('assets/js/imagesloaded.pkgd.min.js') }}></script>
+    <script src= {{ asset('assets/js/isotope.pkgd.min.js') }}></script>
+
+    <script src= {{ asset('assets/js/bmi.calculator.js') }}></script>
 
     <!-- Main Js File -->
-    <script src="assets/js/main.js"></script>
+    <script src= {{ asset('assets/js/main.js') }}></script>
 </body>
 
 </html>

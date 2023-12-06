@@ -23,7 +23,7 @@
                         <h1 class="breadcumb-title">Musculação Detalhes</h1>
                         <ul class="breadcumb-menu">
                             <li><a href="index.html">MODALIDADE</a></li>
-                            <li class="active"></li>
+                            <li class="active">MUSCULAÇÃO</li>
                         </ul>
                     </div>
                 </div>
@@ -61,29 +61,30 @@
                                     </div>
                                 </div>
                             </div>
-                            <p class="mt-25 mb-50">We offer a wide range of fitness services and programs to cater to different fitness levels, interests, and goals. Whether you're looking for personal training, group fitness classes, specialized workouts, or nutritional guidance, we have options to suit your needs.</p>
-                            <h3 class="page-subtitle mb-0">Why Choose Us?</h3>
+                            <p class="mt-25 mb-50">Na academia oferecemos uma ampla lista de serviços e programas de condicionamento físico para atender a diferentes níveis, interesses e objetivos de condicionamento físico. Quer procure treino pessoal, aulas de fitness em grupo, treinos especializados ou orientação nutricional, temos opções que se adaptam às suas necessidades.</p>
+                            <h3 class="page-subtitle mb-0">Porque treinar musculação?</h3>
 
                             {{-- <div class="service-page-list checklist mb-50" data-bg-src="../assets/img/normal/service-details1-2.png"> --}}
-                            <div class="service-page-list checklist mb-50" style=" background-image: url(../assets/img/normal/woman.png);}" data-bg-src="../assets/img/normal/woman.png">
+                            <div class="service-page-list checklist mb-50" style=" background-image: url(../assets/img/normal/woman3.png);}" data-bg-src="../assets/img/normal/woman3.png">
 
                                 <ul>
-                                    <li><i class="far fa-check-circle"></i>Design workout program.</li>
-                                    <li><i class="far fa-check-circle"></i>Progressive overload.</li>
-                                    <li><i class="far fa-check-circle"></i>Focus on proper form.</li>
-                                    <li><i class="far fa-check-circle"></i>Be consistent with training.</li>
-                                    <li><i class="far fa-check-circle"></i>Adjust calorie intake as needed.</li>
+                                    <li><i class="far fa-check-circle"></i>Desenvolvimento Muscular.</li>
+                                    <li><i class="far fa-check-circle"></i>Melhoria da Saúde Óssea.</li>
+                                    <li><i class="far fa-check-circle"></i>Controle de Peso e Metabolismo.</li>
+                                    <li><i class="far fa-check-circle"></i>Melhoria na Postura e Flexibilidade</li>
+                                    <li><i class="far fa-check-circle"></i>Benefícios Mentais e Emocionais.</li>
                                 </ul>
                             </div>
+
                             <div class="accordion-area mb-30 accordion" id="faqAccordion">
 
                                 <div class="accordion-card style2 active">
                                     <div class="accordion-header" id="collapse-item-1">
-                                        <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#collapse-1" aria-expanded="true" aria-controls="collapse-1"> What are your gym's operating hours?</button>
+                                        <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#collapse-1" aria-expanded="true" aria-controls="collapse-1"> Qual é o horário dos treinos de musculação?</button>
                                     </div>
                                     <div id="collapse-1" class="accordion-collapse collapse show" aria-labelledby="collapse-item-1" data-bs-parent="#faqAccordion">
                                         <div class="accordion-body">
-                                            <p class="faq-text">Progressively communicate flexible human capital with best-of-breed schemas. Completely develop 2.0 infrastructures via bleeding-edge opportunities. Completely initiate world-class leadership skills via fully tested applications. </p>
+                                            <p class="faq-text">Os horários dos treinos é você que escolhe! Para se adaptar a sua rotina e ter flexibilidade, basta nos comunicar suas preferências que montamos seu cronograma de maneira fácil e rápida e do seu jeito! </p>
                                         </div>
                                     </div>
                                 </div>
@@ -91,11 +92,11 @@
 
                                 <div class="accordion-card style2">
                                     <div class="accordion-header" id="collapse-item-2">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-2" aria-expanded="false" aria-controls="collapse-2"> What amenities and facilities does your gym offer?</button>
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-2" aria-expanded="false" aria-controls="collapse-2">Que comodidades e instalações sua academia oferece ?</button>
                                     </div>
                                     <div id="collapse-2" class="accordion-collapse collapse " aria-labelledby="collapse-item-2" data-bs-parent="#faqAccordion">
                                         <div class="accordion-body">
-                                            <p class="faq-text">Progressively communicate flexible human capital with best-of-breed schemas. Completely develop 2.0 infrastructures via bleeding-edge opportunities. Completely initiate world-class leadership skills via fully tested applications. </p>
+                                            <p class="faq-text">Nossa academia oferece uma ampla gama de comodidades e instalações para atender às diversas necessidades de nossos membros, proporcionando uma experiência completa de treinamento. Contamos com diversas salas e vários espaços com equipamentos diversos e  aparelhos de última geração, proporcionando um ambiente propício para o desenvolvimento de força e resistência. Para aqueles que buscam variedade em seus treinos, oferecemos uma área dedicada a exercícios diferentes.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -103,15 +104,17 @@
 
                                 <div class="accordion-card style2">
                                     <div class="accordion-header" id="collapse-item-3">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-3" aria-expanded="false" aria-controls="collapse-3"> Do you provide personal training services?</button>
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-3" aria-expanded="false" aria-controls="collapse-3">Você fornece treinamento pessoal?</button>
                                     </div>
                                     <div id="collapse-3" class="accordion-collapse collapse " aria-labelledby="collapse-item-3" data-bs-parent="#faqAccordion">
                                         <div class="accordion-body">
-                                            <p class="faq-text">Progressively communicate flexible human capital with best-of-breed schemas. Completely develop 2.0 infrastructures via bleeding-edge opportunities. Completely initiate world-class leadership skills via fully tested applications. </p>
+                                            <p class="faq-text">
+                                                Sim, em nossa academia, oferecemos serviços de treinamento pessoal altamente personalizados para atender às necessidades individuais de nossos membros. Nossos treinadores pessoais são profissionais especializados, prontos para criar programas de treinamento adaptados aos objetivos específicos de cada pessoa. Seja o objetivo aumentar a força, perder peso, melhorar a resistência ou alcançar metas específicas de condicionamento físico, nossos treinadores trabalham em estreita colaboração com os membros para desenvolver planos de treinamento treinados e motivadores. </p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+
                         </div>
                     </div>
                 </div>
@@ -142,7 +145,7 @@
                             <ul>
                                 <li>
                                     <i class="far fa-clock"></i>
-                                    Monday – Friday 08:00 – 21:30 pm
+                                    Monday – Friday -08:00 – 21:30 pm
                                 </li>
                                 <li>
                                     <i class="far fa-clock"></i>
@@ -160,5 +163,116 @@
         </div>
     </div>
 
+    <!--==============================
+    Cta Area
+    ==============================-->
+    <section class="cta-area space" data-bg-src={{ asset('assets/img/bg/contato-musc1.png') }}>
+        <div class="container">
+            <div class="row justify-content-lg-end justify-content-center">
+                <div class="col-xl-6 col-lg-8 col-md-10">
+                    <div class="cta-wrap text-center text-lg-start">
+                        <div class="title-area">
+                            <span class="sub-title">Contate-nos</span>
+                            <h2 class="sec-title text-white">Obtenha uma visita gratuita agora mesmo aqui!</h2>
+                        </div>
+                        <div class="btn-wrap mt-40">
+                            <a href="about.html" class="btn style2">Marque uma visita</a>
+                            <div class="about-info-wrap style3">
+                                <div class="icon"><i class="fas fa-phone-volume"></i></div>
+                                <div class="details">
+                                    <p class="about-info-title text-white">Precisa de ajuda?</p>
+                                    <a class="about-info-link" href="tel:+25825692582">(+258) 2569 2582</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--==============================
+    PLANOS
+    ==============================-->
+
+    <div class="pricing-area">
+        <div class="container">
+            <div class="title-area text-center">
+                <h3 class="sub-title">Planos de Preço</h3>
+                <h2 class="sec-title">Nossos Planos</h2>
+            </div>
+            <div class="row gy-4 justify-content-center">
+                <div class="col-lg-4 col-md-6">
+                    <div class="pricing-card">
+                        <div class="pricing-card_bg">
+                            <img src= {{ asset('assets/img/bg/pricing-card1-bg.png') }}alt="img">
+                        </div>
+                        <div class="pricing-card_icon">
+                            <img src= {{ asset('assets/img/icon/picing-icon_1-1.svg') }} alt="img">
+                        </div>
+                        <h3 class="pricing-card_title">Plano Básica</h3>
+                        <h4 class="pricing-card_price"><span class="currency">$</span>19<span class="duration">/mês</span>
+                        </h4>
+                        <p class="pricing-card_content">Esta categoria normalmente oferece acesso às instalações e equipamentos da academia.</p>
+                        <div class="checklist">
+                            <ul>
+                                <li><i class="far fa-check-circle"></i>12 treinamentos</li>
+                                <li><i class="far fa-check-circle"></i>Chuveiro e armários gratuitos</li>
+                                <li><i class="far fa-check-circle"></i>Tapete de ioga pessoal</li>
+                                <li><i class="far fa-check-circle"></i>Estacionamento grátis</li>
+                            </ul>
+                        </div>
+                        <a class="btn style2" href="pricing.html">Escolha esse Plano</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="pricing-card pricing-card_active">
+                        <div class="pricing-card_bg">
+                            <img src= {{ asset('assets/img/bg/pricing-card1-bg.png') }} alt="img">
+                        </div>
+                        <div class="pricing-card_icon">
+                            <img src= {{ asset('assets/img/icon/picing-icon_1-2.svg') }} alt="img">
+                        </div>
+                        <h3 class="pricing-card_title">Plano Padrão</h3>
+                        <h4 class="pricing-card_price"><span class="currency">$</span>39<span class="duration">/mês</span>
+                        </h4>
+                        <p class="pricing-card_content">Esta categoria normalmente oferece acesso às instalações e equipamentos da academia. </p>
+                        <div class="checklist">
+                            <ul>
+                                <li><i class="far fa-check-circle"></i>12 treinamentos</li>
+                                <li><i class="far fa-check-circle"></i>Chuveiro e armários gratuitos</li>
+                                <li><i class="far fa-check-circle"></i>Tapete de ioga pessoal</li>
+                                <li><i class="far fa-check-circle"></i>Estacionamento grátis</li>
+                            </ul>
+                        </div>
+                        <a class="btn style2" href="pricing.html">Escolha esse Plano</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="pricing-card">
+                        <div class="pricing-card_bg">
+                            <img src= {{ asset('') }}assets/img/bg/pricing-card1-bg.png" alt="img">
+                        </div>
+                        <div class="pricing-card_icon">
+                            <img src= {{ asset('') }}assets/img/icon/picing-icon_1-3.svg" alt="img">
+                        </div>
+                        <h3 class="pricing-card_title">Plano Premium</h3>
+                        <h4 class="pricing-card_price"><span class="currency">$</span>69<span class="duration">/mês</span>
+                        </h4>
+                        <p class="pricing-card_content">Esta categoria normalmente oferece acesso às instalações e equipamentos da academia. </p>
+                        <div class="checklist">
+                            <ul>
+                                <li><i class="far fa-check-circle"></i>12 treinamentos</li>
+                                <li><i class="far fa-check-circle"></i>Chuveiro e armários gratuitos</li>
+                                <li><i class="far fa-check-circle"></i>Tapete de ioga pessoal</li>
+                                <li><i class="far fa-check-circle"></i>Estacionamento grátis</li>
+                            </ul>
+                        </div>
+                        <a class="btn style2" href="pricing.html">Escolha esse Plano</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
  @endsection

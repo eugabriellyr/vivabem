@@ -3816,7 +3816,7 @@ a.text-theme:hover,
   height: 55px;
   line-height: 55px;
   padding: 0 20px;
-  width: 105%;
+  width: 107%;
 }
 .widget_schedule ul li i {
   margin-right: 6px;
@@ -11137,7 +11137,7 @@ span.select2-selection.select2-selection--single:focus {
 }
 .accordion-card.style2 .accordion-button:after {
   background: transparent;
-  color: var(--theme-color);
+  color: var(--amarelo-vivabem);
   border: 0;
   top: 10px;
 }
@@ -11920,7 +11920,7 @@ span.select2-selection.select2-selection--single:focus {
   margin-bottom: 10px;
 }
 .service-page-single .service-page-list li i {
-  color: var(--white-color);
+  color: var(--amarelo-vivabem);
 }
 .service-page-single .service-page-list li:last-child {
   margin-bottom: 0;
