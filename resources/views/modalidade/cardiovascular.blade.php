@@ -167,7 +167,7 @@
         <!--==============================
         Cta Area
         ==============================-->
-        <section class="cta-area space" data-bg-src={{ asset('assets/img/bg/contato-musc1.png') }}>
+        <section class="cta-area space" data-bg-src={{ asset('assets/img/bg/contato-cardio1.png') }}>
             <div class="container">
                 <div class="row justify-content-lg-end justify-content-center">
                     <div class="col-xl-6 col-lg-8 col-md-10">

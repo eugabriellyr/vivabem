@@ -204,7 +204,7 @@
                         <div class="col-auto m-lg-auto">
                             <nav class="main-menu d-none d-lg-inline-block">
                                 <ul>
-                                    <li class="menu-item-has-children">
+                                    <li>
                                         <a href={{ route('home') }}>Home</a>
                                     </li>
                                     <li>
@@ -236,12 +236,8 @@
                                         </ul>
                                     </li>
 
-
-                                    <li class="menu-item-has-children">
+                                    <li>
                                         <a href={{ route('noticias') }}>Noticias</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="blog.html">Detalhes</a></li>
-                                        </ul>
                                     </li>
 
 
